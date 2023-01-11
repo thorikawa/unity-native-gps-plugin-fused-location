@@ -27,6 +27,7 @@ android {
 
 dependencies {
 
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
     compileOnly files('./libs/classes.jar') // Avoid redundant Unity Player in final application APK
 }
 
